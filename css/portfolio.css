@@ -1,0 +1,115 @@
+body{
+    font-family: 'Roboto';
+    font-style: normal;
+    color: #212121;
+    font-size: 14px;
+}
+li{
+    list-style-type: none;
+}
+.page{
+    text-align: center;
+}
+.page li{
+    display: inline-block;
+}
+span{
+    color: #2196F3;
+}
+.webstudioheader{
+    font-family:"Raleway";
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+    color: black;
+    text-decoration: none;
+}
+.header-transition{
+    cursor: pointer;
+    text-decoration: none;
+    font-weight: 500;
+    line-height: 16px;
+    color: #212121;
+}
+.header-transition:hover{
+    color: #2196F3;
+}
+.header-transition:active{
+    color: #1d71b6;
+}
+.mailtel{
+    cursor: pointer;
+    text-decoration: none;
+    font-weight: 500;
+    line-height: 16px;
+    color:#757575;
+}
+.mailtel:hover,.adress:hover{
+    color:#188CE8;
+}
+.mailtel:active,.adress:active{
+    color:#15568b;
+}
+
+button{
+    display:inline-block;
+    position: relative;
+    margin-left: 8px;
+    left: -8px;
+    padding: 6px 22px 6px 22px;
+    background: #F5F4FA;
+    border: none;
+    color: #212121;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+    border-radius: 4px;
+    
+}
+button:hover{
+    cursor: pointer;
+    color: #FFFFFF;
+    background: #2196F3;
+}
+button:active{
+    background: #1666a7;
+}
+h2{
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 36px;
+    color: #212121;
+}
+p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    color: #757575;
+}
+footer{
+    width: 100%;
+    height: 200px;
+    background: #2F303A;
+}
+.webstudiofooter{
+    font-family:"Raleway";
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+    color: white;
+    text-decoration: none;
+}
+.adress{
+    cursor: pointer;
+    text-decoration: none;
+    font-weight: 400;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+footer .mailtel{
+    cursor: pointer;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+}
